@@ -80,9 +80,7 @@ PRODUCT_COPY_FILES += \
 
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
-    GoogleClock \
-    Wallpapers \
-    ResurrectionStats
+    GoogleClock
 
 # Copy all Lineage-specific init rc files
 $(foreach f,$(wildcard vendor/rr/prebuilt/common/etc/init/*.rc),\
@@ -162,18 +160,11 @@ PRODUCT_PACKAGES += \
     AudioFX \
     LineageSettingsProvider \
     LineageSetupWizard \
-    Eleven \
-    ExactCalculator \
-    Jelly \
     LockClock \
     TrebuchetQuickStep \
     Updater \
     WallpaperPicker \
     WeatherProvider
-
-# Exchange support
-PRODUCT_PACKAGES += \
-    Exchange2
 
 # Berry styles
 PRODUCT_PACKAGES += \
