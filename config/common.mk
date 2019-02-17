@@ -80,7 +80,8 @@ PRODUCT_COPY_FILES += \
 
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
-    GoogleClock
+    GoogleClock \
+    AdAway
 
 # Copy all Lineage-specific init rc files
 $(foreach f,$(wildcard vendor/rr/prebuilt/common/etc/init/*.rc),\
